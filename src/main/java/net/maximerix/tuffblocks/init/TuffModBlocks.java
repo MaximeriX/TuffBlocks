@@ -1,27 +1,14 @@
 package net.maximerix.tuffblocks.init;
 
+import net.maximerix.tuffblocks.block.*;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraft.block.Block;
-import net.maximerix.tuffblocks.block.TuffWallBlock;
-import net.maximerix.tuffblocks.block.TuffStairsBlock;
-import net.maximerix.tuffblocks.block.TuffSlabBlock;
-import net.maximerix.tuffblocks.block.TuffBricksBlock;
-import net.maximerix.tuffblocks.block.TuffBrickWallBlock;
-import net.maximerix.tuffblocks.block.TuffBrickStairsBlock;
-import net.maximerix.tuffblocks.block.TuffBrickSlabBlock;
-import net.maximerix.tuffblocks.block.TuffBlock;
-import net.maximerix.tuffblocks.block.PolishedTuffWallBlock;
-import net.maximerix.tuffblocks.block.PolishedTuffStairsBlock;
-import net.maximerix.tuffblocks.block.PolishedTuffSlabBlock;
-import net.maximerix.tuffblocks.block.PolishedTuffBlock;
-import net.maximerix.tuffblocks.block.ChiseledTuffBricksBlock;
-import net.maximerix.tuffblocks.block.ChiseledTuffBlock;
 import net.maximerix.tuffblocks.TuffMod;
 
 public class TuffModBlocks {
-	public static final DeferredRegister<Block> REGISTRY = new DeferredRegister<>(ForgeRegistries.BLOCKS, TuffMod.MODID);
+	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, TuffMod.MODID);
 	public static final RegistryObject<Block> TUFF = REGISTRY.register("tuff", () -> new TuffBlock());
 	public static final RegistryObject<Block> TUFF_STAIRS = REGISTRY.register("tuff_stairs", () -> new TuffStairsBlock());
 	public static final RegistryObject<Block> TUFF_SLAB = REGISTRY.register("tuff_slab", () -> new TuffSlabBlock());

@@ -10,7 +10,7 @@ import net.minecraft.block.Block;
 import net.maximerix.tuffblocks.TuffMod;
 
 public class TuffModItems {
-	public static final DeferredRegister<Item> REGISTRY = new DeferredRegister<>(ForgeRegistries.ITEMS, TuffMod.MODID);
+	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, TuffMod.MODID);
 	public static final RegistryObject<Item> TUFF = block(TuffModBlocks.TUFF, ItemGroup.BUILDING_BLOCKS);
 	public static final RegistryObject<Item> TUFF_STAIRS = block(TuffModBlocks.TUFF_STAIRS, ItemGroup.BUILDING_BLOCKS);
 	public static final RegistryObject<Item> TUFF_SLAB = block(TuffModBlocks.TUFF_SLAB, ItemGroup.BUILDING_BLOCKS);
