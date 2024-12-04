@@ -1,0 +1,56 @@
+{
+	"schemaVersion": 1,
+	"id": "tuff",
+	"version": "1.0.7-1.20.1",
+	"name": "TuffBlocks",
+	"description": "Adds tuff blocks from 1.21 to older versions",
+	"authors": [
+		"MaximeriX"
+	],
+	"contributors": [
+		"Mojang AB"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/tuffblocks",
+		"issues": "https://github.com/MaximeriX/TuffBlocks/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/tuff/tuffblocks-logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.maximerix.tuffblocks.TuffBlocks"
+		],
+		"client": [
+			"net.maximerix.tuffblocks.TuffBlocksClient"
+		],
+		"fabric-datagen": [
+			"net.maximerix.tuffblocks.TuffBlocksDataGenerator"
+		]
+	},
+	"mixins": [
+		"tuff.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.4",
+		"minecraft": ">=1.20 <=1.20.6",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/tuffblocks",
+				"modmenu.modrinth": "https://modrinth.com/mod/tuffblocks",
+				"modmenu.discord": "https://discord.com/invite/C8gtNVfVJE"
+			}
+		}
+	},
+	"modupdater": {
+		"strategy": "curseforge",
+		"projectID": 1068864
+	}
+}
