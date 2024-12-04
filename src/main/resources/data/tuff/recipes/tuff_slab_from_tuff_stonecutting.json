@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 2,
   "ingredient": {
-    "item": "tuff:tuff"
+    "item": "minecraft:tuff"
   },
   "result": "tuff:tuff_slab"
 }

@@ -5,7 +5,6 @@
     "tuff:tuff_slab",
     "tuff:tuff_wall",
     "tuff:chiseled_tuff",
-    "tuff:chiseled_tuff_bricks",
     "tuff:polished_tuff",
     "tuff:polished_tuff_stairs",
     "tuff:polished_tuff_slab",
@@ -14,6 +13,6 @@
     "tuff:tuff_brick_stairs",
     "tuff:tuff_brick_slab",
     "tuff:tuff_brick_wall",
-    "tuff:tuff"
+    "tuff:chiseled_tuff_bricks"
   ]
 }
