@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tuff:tuff",
+    "minecraft:tuff",
     "tuff:polished_tuff"
   ]
 }

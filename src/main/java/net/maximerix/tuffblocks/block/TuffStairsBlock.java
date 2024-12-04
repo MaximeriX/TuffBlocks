@@ -1,59 +1,40 @@
 package net.maximerix.tuffblocks.block;
 
-import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.util.ForgeSoundType;
-import net.minecraftforge.common.ToolType;
-import net.minecraft.util.SoundEvent;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.BlockItem;
-import net.minecraft.block.material.MaterialColor;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.StairsBlock;
-import net.minecraft.block.Block;
-import net.maximerix.tuffblocks.TuffModElements;
+import net.minecraft.world.level.material.MaterialColor;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.StairBlock;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.BlockPos;
 
-@TuffModElements.ModElement.Tag
-public class TuffStairsBlock extends TuffModElements.ModElement {
-	@ObjectHolder("tuff:tuff_stairs")
-	public static final Block block = null;
-
-	public TuffStairsBlock(TuffModElements instance) {
-		super(instance, 2);
+public class TuffStairsBlock extends StairBlock {
+	public TuffStairsBlock() {
+		super(() -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GRAY)
+				.sound(new ForgeSoundType(1.0f, 1.0f,
+						() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.break")),
+						() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.step")),
+						() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.place")),
+						() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.hit")),
+						() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.fall"))))
+				.strength(1.5f, 6f).requiresCorrectToolForDrops().dynamicShape()).defaultBlockState(),
+				BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GRAY)
+						.sound(new ForgeSoundType(1.0f, 1.0f,
+								() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.break")),
+								() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.step")),
+								() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.place")),
+								() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.hit")),
+								() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.fall"))))
+						.strength(1.5f, 6f).requiresCorrectToolForDrops().dynamicShape());
+		setRegistryName("tuff_stairs");
 	}
 
 	@Override
-	public void initElements() {
-		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
-	}
-
-	public static class CustomBlock extends StairsBlock {
-		public CustomBlock() {
-			super(() -> new Block(Block.Properties.create(Material.ROCK)
-					.sound(new ForgeSoundType(1.0f, 1.0f,
-							() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.break")),
-							() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.step")),
-							() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.place")),
-							() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.hit")),
-							() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.step"))))
-					.hardnessAndResistance(1.5f, 6f).setLightLevel(s -> 0).harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool())
-							.getDefaultState(),
-					Block.Properties.create(Material.ROCK)
-							.sound(new ForgeSoundType(1.0f, 1.0f,
-									() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.break")),
-									() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.step")),
-									() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.place")),
-									() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.hit")),
-									() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.step"))))
-							.hardnessAndResistance(1.5f, 6f).setLightLevel(s -> 0).harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("tuff_stairs");
-		}
-
-		@Override
-		public MaterialColor getMaterialColor() {
-			return MaterialColor.GRAY_TERRACOTTA;
-		}
+	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
+		return 0;
 	}
 }
