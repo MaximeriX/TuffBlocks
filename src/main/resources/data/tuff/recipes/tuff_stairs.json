@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "pattern": [
     "0  ",
     "34 ",
@@ -27,7 +26,7 @@
     }
   },
   "result": {
-    "item": "tuff:tuff_stairs",
+    "item": "tuff:deleted_mod_element",
     "count": 4
   }
 }
