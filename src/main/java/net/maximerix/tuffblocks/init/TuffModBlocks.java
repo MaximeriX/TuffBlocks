@@ -3,10 +3,6 @@ package net.maximerix.tuffblocks.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 import net.maximerix.tuffblocks.block.TuffWallBlock;
 import net.maximerix.tuffblocks.block.TuffStairsBlock;
@@ -38,18 +34,4 @@ public class TuffModBlocks {
 	public static final RegistryObject<Block> TUFF_BRICK_SLAB = REGISTRY.register("tuff_brick_slab", () -> new TuffBrickSlabBlock());
 	public static final RegistryObject<Block> TUFF_BRICK_WALL = REGISTRY.register("tuff_brick_wall", () -> new TuffBrickWallBlock());
 	public static final RegistryObject<Block> CHISELED_TUFF_BRICKS = REGISTRY.register("chiseled_tuff_bricks", () -> new ChiseledTuffBricksBlock());
-
-	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-	public static class ClientSideHandler {
-		@SubscribeEvent
-		public static void clientSetup(FMLClientSetupEvent event) {
-			TuffStairsBlock.registerRenderLayer();
-			PolishedTuffBlock.registerRenderLayer();
-			PolishedTuffStairsBlock.registerRenderLayer();
-			TuffBricksBlock.registerRenderLayer();
-			TuffBrickStairsBlock.registerRenderLayer();
-			TuffBrickSlabBlock.registerRenderLayer();
-			ChiseledTuffBricksBlock.registerRenderLayer();
-		}
-	}
 }

@@ -1,9 +1,9 @@
 {
   "parent": "block/cube_bottom_top",
   "textures": {
-    "bottom": "tuff:block/tuff_bricks",
-    "top": "tuff:block/tuff_bricks",
-    "side": "tuff:block/tuff_bricks"
+    "bottom": "tuff:blocks/tuff_bricks",
+    "top": "tuff:blocks/tuff_bricks",
+    "side": "tuff:blocks/tuff_bricks"
   },
   "render_type": "cutout_mipped"
 }

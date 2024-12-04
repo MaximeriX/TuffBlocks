@@ -1,9 +1,9 @@
 {
   "parent": "block/stairs",
   "textures": {
-    "bottom": "tuff:block/polished_tuff",
-    "top": "tuff:block/polished_tuff",
-    "side": "tuff:block/polished_tuff"
+    "bottom": "tuff:blocks/polished_tuff",
+    "top": "tuff:blocks/polished_tuff",
+    "side": "tuff:blocks/polished_tuff"
   },
   "render_type": "cutout_mipped"
 }

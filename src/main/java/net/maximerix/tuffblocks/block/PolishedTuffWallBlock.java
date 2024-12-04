@@ -1,12 +1,12 @@
-package  net.maximerix.tuffblocks.block;
+package net.maximerix.tuffblocks.block;
 
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.WallBlock;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.material.MaterialColor;
-import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.common.util.ForgeSoundType;
+import net.minecraft.world.level.material.MaterialColor;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.WallBlock;
+import net.minecraft.resources.ResourceLocation;
 
 public class PolishedTuffWallBlock extends WallBlock {
 	public PolishedTuffWallBlock() {

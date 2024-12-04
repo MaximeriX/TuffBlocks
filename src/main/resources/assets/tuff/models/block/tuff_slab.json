@@ -1,9 +1,9 @@
 {
   "parent": "block/slab",
   "textures": {
-    "bottom": "tuff:block/tuff",
-    "top": "tuff:block/tuff",
-    "side": "tuff:block/tuff"
+    "bottom": "tuff:blocks/tuff",
+    "top": "tuff:blocks/tuff",
+    "side": "tuff:blocks/tuff"
   },
   "render_type": "solid"
 }
