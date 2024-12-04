@@ -16,7 +16,7 @@ public class ModBlocks {
 
     public static final Block TUFF_STAIRS = registerBlock("tuff_stairs",
             new StairsBlock(Blocks.TUFF.getDefaultState(), AbstractBlock.Settings.copy(Blocks.TUFF)
-                    .strength(1.5f, 6f )
+                    .strength(1.5f, 6f)
                     .sounds(ModSounds.TUFF_SOUNDS)
                     .requiresTool()),
             ItemGroup.BUILDING_BLOCKS);
@@ -48,14 +48,14 @@ public class ModBlocks {
                     .strength(1.5f,6f )
                     .sounds(ModSounds.POLISHED_TUFF_SOUNDS)
                     .requiresTool()),
-            ItemGroup.BUILDING_BLOCKS);
+                    ItemGroup.BUILDING_BLOCKS);
     //
     public static final Block POLISHED_TUFF_STAIRS = registerBlock("polished_tuff_stairs",
             new StairsBlock(Blocks.TUFF.getDefaultState(), AbstractBlock.Settings.copy(Blocks.TUFF)
                     .strength(1.5f, 6f)
                     .sounds(ModSounds.POLISHED_TUFF_SOUNDS)
                     .requiresTool()),
-            ItemGroup.BUILDING_BLOCKS);
+                    ItemGroup.BUILDING_BLOCKS);
     //
     public static final Block POLISHED_TUFF_SLAB = registerBlock("polished_tuff_slab",
             new SlabBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_GRAY)
@@ -81,7 +81,7 @@ public class ModBlocks {
     //
     public static final Block TUFF_BRICK_STAIRS = registerBlock("tuff_brick_stairs",
             new StairsBlock(Blocks.TUFF.getDefaultState(), AbstractBlock.Settings.copy(Blocks.TUFF)
-                    .strength(1.5f, 6f )
+                    .strength(1.5f, 6f)
                     .sounds(ModSounds.TUFF_BRICKS_SOUNDS)
                     .requiresTool()),
             ItemGroup.BUILDING_BLOCKS);
@@ -108,18 +108,17 @@ public class ModBlocks {
             ItemGroup.BUILDING_BLOCKS);
 
 
-    private static Block registerBlock(String name, Block block, ItemGroup group) {
-        registerBlockItem(name, block, group);
+    private static Block registerBlock(String name, Block block, ItemGroup tab) {
+registerBlockItem(name, block, tab);
         return Registry.register(Registry.BLOCK, new Identifier(TuffBlocks.MOD_ID, name), block);
     }
-
-    private static Item registerBlockItem(String name, Block block, ItemGroup group) {
+    private static Item registerBlockItem(String name, Block block, ItemGroup tab) {
         return Registry.register(Registry.ITEM, new Identifier(TuffBlocks.MOD_ID, name),
-                new BlockItem(block, new FabricItemSettings().group(group)));
+                new BlockItem(block, new FabricItemSettings().group(tab)));
     }
+
 
     public static void registerModBlocks() {
 
     }
-
 }

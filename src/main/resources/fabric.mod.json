@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "tuff",
-	"version": "1.0.7-1.18.2",
+	"version": "1.0.7-1.19.2",
 	"name": "TuffBlocks",
 	"description": "Adds tuff blocks before 1.21 to older versions",
 	"authors": [
@@ -21,6 +21,9 @@
 		"main": [
 			"net.maximerix.tuffblocks.TuffBlocks"
 		],
+		"client": [
+			"net.maximerix.tuffblocks.TuffBlocksClient"
+		],
 		"fabric-datagen": [
 			"net.maximerix.tuffblocks.TuffBlocksDataGenerator"
 		]
@@ -30,7 +33,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.14.4",
-		"minecraft": ">=1.18 <=1.18.2",
+		"minecraft": ">=1.19 <=1.19.2",
 		"java": ">=17",
 		"fabric-api": "*"
 	},

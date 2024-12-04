@@ -7,6 +7,7 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.sound.SoundEvent;
 
+
 public class ModSounds {
     public static final SoundEvent TUFF_BREAK = registerSoundEvent("block.tuff.break");
     public static final SoundEvent TUFF_STEP = registerSoundEvent("block.tuff.step");

@@ -3,6 +3,7 @@ package net.maximerix.tuffblocks;
 import net.fabricmc.api.ModInitializer;
 
 import net.maximerix.tuffblocks.block.ModBlocks;
+import net.maximerix.tuffblocks.sound.ModSounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,5 +15,6 @@ public class TuffBlocks implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("TuffBlocks successfully loaded!");
 		ModBlocks.registerModBlocks();
+			ModSounds.registerSounds();
 	}
 }
