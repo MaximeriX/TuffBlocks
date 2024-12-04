@@ -1,80 +1,59 @@
 package net.maximerix.tuffblocks.block;
 
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraftforge.common.ToolType;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraft.world.IWorldReader;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.client.renderer.RenderTypeLookup;
-import net.minecraft.client.renderer.RenderType;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.StairsBlock;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
-import net.maximerix.tuffblocks.init.TuffModBlocks;
+import net.maximerix.tuffblocks.TuffModElements;
 
-public class TuffStairsBlock extends StairsBlock {
-	public TuffStairsBlock() {
-		super(() -> Blocks.AIR.getDefaultState(),
-				Block.Properties.create(Material.ROCK, MaterialColor.GRAY_TERRACOTTA).sound(new SoundType(1.0f, 1.0f, null, null, null, null, null) {
-					@Override
-					public SoundEvent getBreakSound() {
-						return new SoundEvent(new ResourceLocation("tuff:block.tuff.break"));
-					}
+@TuffModElements.ModElement.Tag
+public class TuffStairsBlock extends TuffModElements.ModElement {
+	@ObjectHolder("tuff:tuff_stairs")
+	public static final Block block = null;
 
-					@Override
-					public SoundEvent getStepSound() {
-						return new SoundEvent(new ResourceLocation("tuff:block.tuff.step"));
-					}
-
-					@Override
-					public SoundEvent getPlaceSound() {
-						return new SoundEvent(new ResourceLocation("tuff:block.tuff.place"));
-					}
-
-					@Override
-					public SoundEvent getHitSound() {
-						return new SoundEvent(new ResourceLocation("tuff:block.tuff.hit"));
-					}
-
-					@Override
-					public SoundEvent getFallSound() {
-						return new SoundEvent(new ResourceLocation("tuff:block.tuff.fall"));
-					}
-				}).hardnessAndResistance(1.5f, 6f).harvestLevel(0).harvestTool(ToolType.PICKAXE).variableOpacity());
+	public TuffStairsBlock(TuffModElements instance) {
+		super(instance, 2);
 	}
 
 	@Override
-	public float getExplosionResistance() {
-		return 6f;
+	public void initElements() {
+		elements.blocks.add(() -> new CustomBlock());
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
 
-	@Override
-	public boolean ticksRandomly(BlockState state) {
-		return false;
-	}
+	public static class CustomBlock extends StairsBlock {
+		public CustomBlock() {
+			super(() -> new Block(Block.Properties.create(Material.ROCK)
+					.sound(new ForgeSoundType(1.0f, 1.0f,
+							() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.break")),
+							() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.step")),
+							() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.place")),
+							() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.hit")),
+							() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.step"))))
+					.hardnessAndResistance(1.5f, 6f).setLightLevel(s -> 0).harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool())
+							.getDefaultState(),
+					Block.Properties.create(Material.ROCK)
+							.sound(new ForgeSoundType(1.0f, 1.0f,
+									() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.break")),
+									() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.step")),
+									() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.place")),
+									() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.hit")),
+									() -> new SoundEvent(new ResourceLocation("tuff:block.tuff.step"))))
+							.hardnessAndResistance(1.5f, 6f).setLightLevel(s -> 0).harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool());
+			setRegistryName("tuff_stairs");
+		}
 
-	@SubscribeEvent
-	@OnlyIn(Dist.CLIENT)
-	public static void clientLoad(FMLClientSetupEvent event) {
-		RenderTypeLookup.setRenderLayer(TuffModBlocks.TUFF_STAIRS.get(), RenderType.getSolid());
-	}
-
-	@Override
-	public int tickRate(IWorldReader world) {
-		return 0;
-	}
-
-	@Override
-	public MaterialColor getMaterialColor(BlockState state, IBlockReader blockAccess, BlockPos pos) {
-		return MaterialColor.GRAY_TERRACOTTA;
+		@Override
+		public MaterialColor getMaterialColor() {
+			return MaterialColor.GRAY_TERRACOTTA;
+		}
 	}
 }

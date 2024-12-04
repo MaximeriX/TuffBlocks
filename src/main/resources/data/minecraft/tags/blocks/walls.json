@@ -7,7 +7,9 @@
     "minecraft:red_nether_brick_wall",
     "minecraft:prismarine_wall",
     "tuff:polished_tuff_wall",
+    "minecraft:polished_blackstone_brick_wall",
     "minecraft:mossy_stone_brick_wall",
+    "minecraft:polished_blackstone_wall",
     "minecraft:nether_brick_wall",
     "minecraft:stone_brick_wall",
     "minecraft:diorite_wall",
@@ -17,6 +19,7 @@
     "minecraft:end_stone_brick_wall",
     "minecraft:granite_wall",
     "minecraft:andesite_wall",
-    "tuff:tuff_brick_wall"
+    "tuff:tuff_brick_wall",
+    "minecraft:blackstone_wall"
   ]
 }
