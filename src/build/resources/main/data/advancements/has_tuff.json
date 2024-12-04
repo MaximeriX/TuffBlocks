@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "has_tuff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tuff"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tuff:unlock_tuff_recipes"
+  }
+}

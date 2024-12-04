@@ -13,6 +13,7 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
+import net.maximerix.tuffblocks.init.TuffModTabs;
 import net.maximerix.tuffblocks.init.TuffModSounds;
 import net.maximerix.tuffblocks.init.TuffModItems;
 import net.maximerix.tuffblocks.init.TuffModBlocks;
@@ -36,7 +37,7 @@ public class TuffMod {
 		TuffModSounds.REGISTRY.register(bus);
 		TuffModBlocks.REGISTRY.register(bus);
 		TuffModItems.REGISTRY.register(bus);
-
+		TuffModTabs.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
