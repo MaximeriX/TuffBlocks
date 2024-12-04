@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "tuff:blocks/tuff_bricks",
+    "particle": "tuff:blocks/tuff_bricks"
+  }
+}

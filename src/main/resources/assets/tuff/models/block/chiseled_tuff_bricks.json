@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tuff:blocks/chiseled_tuff_bricks_top",
+    "up": "tuff:blocks/chiseled_tuff_bricks_top",
+    "north": "tuff:blocks/chiseled_tuff_bricks",
+    "east": "tuff:blocks/chiseled_tuff_bricks",
+    "south": "tuff:blocks/chiseled_tuff_bricks",
+    "west": "tuff:blocks/chiseled_tuff_bricks",
+    "particle": "tuff:blocks/chiseled_tuff_bricks_top"
+  }
+}

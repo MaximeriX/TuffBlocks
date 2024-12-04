@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[25,29,)"
+license="MIT License"
+
+[[mods]]
+modId="tuff"
+version="1.0.7-1.14.4"
+displayName="TuffBlocks"
+updateJSONURL="https://pastebin.com/raw/xh0jwySd"
+displayURL="https://curseforge.com/minecraft/mc-mods/tuffblocks"
+logoFile="logo.png"
+credits="MaximeriX, Mojang AB"
+authors="MaximeriX"
+description="Adds tuff blocks from 1.21 to older versions"
+
+[[dependencies.tuff]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14,1.14.4]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+

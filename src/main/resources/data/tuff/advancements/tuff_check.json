@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "wooden_pickaxe_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:wooden_pickaxe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "tuff:give_recipes"
+    }
+}
