@@ -1,10 +1,11 @@
 package net.maximerix.tuffblocks.sound;
 
 import net.maximerix.tuffblocks.TuffBlocks;
-import net.minecraft.sound.BlockSoundGroup;
-import net.minecraft.sound.SoundEvent;
+import net.minecraft.client.sound.Sound;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.sound.SoundEvent;
 
 public class ModSounds {
     public static final SoundEvent TUFF_BREAK = registerSoundEvent("block.tuff.break");
@@ -42,12 +43,12 @@ public class ModSounds {
     public static final SoundEvent TUFF_BRICKS_FALL = registerSoundEvent("block.tuff_bricks.fall");
 
     public static final BlockSoundGroup TUFF_BRICKS_SOUNDS = new BlockSoundGroup(1f, 1f,
-                    ModSounds.
-                             TUFF_BRICKS_BREAK,
-                             TUFF_BRICKS_STEP,
-                             TUFF_BRICKS_PLACE,
-                             TUFF_BRICKS_HIT,
-                             TUFF_BRICKS_FALL);
+            ModSounds.
+                    TUFF_BRICKS_BREAK,
+            TUFF_BRICKS_STEP,
+            TUFF_BRICKS_PLACE,
+            TUFF_BRICKS_HIT,
+            TUFF_BRICKS_FALL);
 
 
     private static SoundEvent registerSoundEvent(String name) {
