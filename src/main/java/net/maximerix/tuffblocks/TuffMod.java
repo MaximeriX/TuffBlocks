@@ -32,7 +32,6 @@ public class TuffMod {
 
 	public TuffMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		TuffModSounds.REGISTRY.register(bus);
 		TuffModBlocks.REGISTRY.register(bus);
