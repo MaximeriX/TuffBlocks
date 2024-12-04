@@ -6,17 +6,14 @@ import net.minecraftforge.fml.network.simple.SimpleChannel;
 import net.minecraftforge.fml.network.NetworkRegistry;
 import net.minecraftforge.fml.network.NetworkEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.thread.SidedThreadGroups;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.client.model.obj.OBJLoader;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.network.PacketBuffer;
-import net.maximerix.tuffblocks.init.TuffModSounds;
 import net.maximerix.tuffblocks.init.TuffModItems;
 import net.maximerix.tuffblocks.init.TuffModBlocks;
 import java.util.function.Supplier;
@@ -35,13 +32,12 @@ public class TuffMod {
 
 	public TuffMod() {
 		MinecraftForge.EVENT_BUS.register(this);
+
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		TuffModSounds.REGISTRY.register(bus);
 		TuffModBlocks.REGISTRY.register(bus);
 		TuffModItems.REGISTRY.register(bus);
 
-		bus.addListener(this::clientSetup);
 		bus.register(this);
 	}
 
@@ -75,9 +71,5 @@ public class TuffMod {
 			actions.forEach(e -> e.getKey().run());
 			workQueue.removeAll(actions);
 		}
-	}
-
-	private void clientSetup(FMLClientSetupEvent event) {
-		OBJLoader.INSTANCE.addDomain(MODID);
 	}
 }

@@ -1,6 +1,7 @@
 package net.maximerix.tuffblocks.block;
 
-import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
@@ -9,7 +10,8 @@ import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.StairsBlock;
@@ -17,6 +19,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
+import net.maximerix.tuffblocks.init.TuffModBlocks;
 
 public class PolishedTuffStairsBlock extends StairsBlock {
 	public PolishedTuffStairsBlock() {
@@ -24,27 +27,27 @@ public class PolishedTuffStairsBlock extends StairsBlock {
 				Block.Properties.create(Material.ROCK, MaterialColor.GRAY_TERRACOTTA).sound(new SoundType(1.0f, 1.0f, null, null, null, null, null) {
 					@Override
 					public SoundEvent getBreakSound() {
-						return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("tuff:block.polished_tuff.break"));
+						return new SoundEvent(new ResourceLocation("tuff:block.polished_tuff.break"));
 					}
 
 					@Override
 					public SoundEvent getStepSound() {
-						return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("tuff:block.polished_tuff.step"));
+						return new SoundEvent(new ResourceLocation("tuff:block.polished_tuff.step"));
 					}
 
 					@Override
 					public SoundEvent getPlaceSound() {
-						return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("tuff:block.polished_tuff.place"));
+						return new SoundEvent(new ResourceLocation("tuff:block.polished_tuff.place"));
 					}
 
 					@Override
 					public SoundEvent getHitSound() {
-						return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("tuff:block.polished_tuff.hit"));
+						return new SoundEvent(new ResourceLocation("tuff:block.polished_tuff.hit"));
 					}
 
 					@Override
 					public SoundEvent getFallSound() {
-						return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("tuff:block.polished_tuff.fall"));
+						return new SoundEvent(new ResourceLocation("tuff:block.polished_tuff.fall"));
 					}
 				}).hardnessAndResistance(1.5f, 6f).harvestLevel(0).harvestTool(ToolType.PICKAXE).variableOpacity());
 	}
@@ -59,10 +62,10 @@ public class PolishedTuffStairsBlock extends StairsBlock {
 		return false;
 	}
 
+	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
-	@Override
-	public BlockRenderLayer getRenderLayer() {
-		return BlockRenderLayer.SOLID;
+	public static void clientLoad(FMLClientSetupEvent event) {
+		RenderTypeLookup.setRenderLayer(TuffModBlocks.POLISHED_TUFF_STAIRS.get(), RenderType.getSolid());
 	}
 
 	@Override

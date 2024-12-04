@@ -47,13 +47,14 @@ public class TuffFeature {
 		public static void init(FMLCommonSetupEvent event) {
 			for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 
-				biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(feature,
-						new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("tuff", "tuff", blockAt -> {
+				biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
+						feature.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("tuff", "tuff", blockAt -> {
 							boolean blockCriteria = false;
 							if (blockAt.getBlock() == Blocks.STONE)
 								blockCriteria = true;
 							return blockCriteria;
-						}), TuffModBlocks.TUFF.get().getDefaultState(), 30), Placement.COUNT_RANGE, new CountRangeConfig(3, 0, 0, 20)));
+						}), TuffModBlocks.TUFF.get().getDefaultState(), 30))
+								.withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(3, 0, 0, 20))));
 			}
 		}
 	}
