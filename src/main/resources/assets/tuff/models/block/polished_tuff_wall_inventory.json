@@ -1,7 +1,7 @@
 {
   "parent": "block/wall_inventory",
   "textures": {
-    "wall": "tuff:blocks/polished_tuff",
-    "particle": "tuff:blocks/polished_tuff"
+    "wall": "tuff:block/polished_tuff",
+    "particle": "tuff:block/polished_tuff"
   }
 }
