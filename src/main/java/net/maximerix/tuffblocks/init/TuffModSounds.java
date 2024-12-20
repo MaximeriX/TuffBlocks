@@ -12,11 +12,6 @@ import java.util.HashMap;
 public class TuffModSounds {
 	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
 	static {
-		REGISTRY.put(new ResourceLocation("tuff", "block.tuff.break"), new SoundEvent(new ResourceLocation("tuff", "block.tuff.break")));
-		REGISTRY.put(new ResourceLocation("tuff", "block.tuff.place"), new SoundEvent(new ResourceLocation("tuff", "block.tuff.place")));
-		REGISTRY.put(new ResourceLocation("tuff", "block.tuff.hit"), new SoundEvent(new ResourceLocation("tuff", "block.tuff.hit")));
-		REGISTRY.put(new ResourceLocation("tuff", "block.tuff.fall"), new SoundEvent(new ResourceLocation("tuff", "block.tuff.fall")));
-		REGISTRY.put(new ResourceLocation("tuff", "block.tuff.step"), new SoundEvent(new ResourceLocation("tuff", "block.tuff.step")));
 		REGISTRY.put(new ResourceLocation("tuff", "block.polished_tuff.break"), new SoundEvent(new ResourceLocation("tuff", "block.polished_tuff.break")));
 		REGISTRY.put(new ResourceLocation("tuff", "block.polished_tuff.place"), new SoundEvent(new ResourceLocation("tuff", "block.polished_tuff.place")));
 		REGISTRY.put(new ResourceLocation("tuff", "block.polished_tuff.hit"), new SoundEvent(new ResourceLocation("tuff", "block.polished_tuff.hit")));

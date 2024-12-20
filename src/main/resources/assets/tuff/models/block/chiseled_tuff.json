@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "tuff:blocks/chiseled_tuff_top",
-    "up": "tuff:blocks/chiseled_tuff_top",
-    "north": "tuff:blocks/chiseled_tuff",
-    "east": "tuff:blocks/chiseled_tuff",
-    "south": "tuff:blocks/chiseled_tuff",
-    "west": "tuff:blocks/chiseled_tuff",
-    "particle": "tuff:blocks/chiseled_tuff_top"
+    "down": "tuff:block/chiseled_tuff_top",
+    "up": "tuff:block/chiseled_tuff_top",
+    "north": "tuff:block/chiseled_tuff",
+    "east": "tuff:block/chiseled_tuff",
+    "south": "tuff:block/chiseled_tuff",
+    "west": "tuff:block/chiseled_tuff",
+    "particle": "tuff:block/chiseled_tuff_top"
   }
 }

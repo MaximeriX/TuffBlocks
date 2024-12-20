@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="tuff"
-version="1.0.7-1.17.1"
+version="1.0.8-1.17.1"
 displayName="TuffBlocks"
 credits="MaximeriX, Mojang AB"
 displayURL="https://curseforge.com/minecraft/mc-mods/tuffblocks"
