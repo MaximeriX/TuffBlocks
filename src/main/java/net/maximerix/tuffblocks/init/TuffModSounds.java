@@ -9,16 +9,6 @@ import net.maximerix.tuffblocks.TuffMod;
 
 public class TuffModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, TuffMod.MODID);
-	public static final RegistryObject<SoundEvent> BLOCK_TUFF_STEP = REGISTRY.register("block.tuff.step",
-			() -> new SoundEvent(new ResourceLocation("tuff", "block.tuff.step")));
-	public static final RegistryObject<SoundEvent> BLOCK_TUFF_FALL = REGISTRY.register("block.tuff.fall",
-			() -> new SoundEvent(new ResourceLocation("tuff", "block.tuff.fall")));
-	public static final RegistryObject<SoundEvent> BLOCK_TUFF_HIT = REGISTRY.register("block.tuff.hit",
-			() -> new SoundEvent(new ResourceLocation("tuff", "block.tuff.hit")));
-	public static final RegistryObject<SoundEvent> BLOCK_TUFF_PLACE = REGISTRY.register("block.tuff.place",
-			() -> new SoundEvent(new ResourceLocation("tuff", "block.tuff.place")));
-	public static final RegistryObject<SoundEvent> BLOCK_TUFF_BREAK = REGISTRY.register("block.tuff.break",
-			() -> new SoundEvent(new ResourceLocation("tuff", "block.tuff.break")));
 	public static final RegistryObject<SoundEvent> BLOCK_POLISHED_TUFF_STEP = REGISTRY.register("block.polished_tuff.step",
 			() -> new SoundEvent(new ResourceLocation("tuff", "block.polished_tuff.step")));
 	public static final RegistryObject<SoundEvent> BLOCK_POLISHED_TUFF_FALL = REGISTRY.register("block.polished_tuff.fall",

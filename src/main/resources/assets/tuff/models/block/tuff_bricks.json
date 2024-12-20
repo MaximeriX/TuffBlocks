@@ -1,8 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "tuff:blocks/tuff_bricks",
-    "particle": "tuff:blocks/tuff_bricks"
-  },
-  "render_type": "solid"
+    "all": "tuff:block/tuff_bricks",
+    "particle": "tuff:block/tuff_bricks"
+  }
 }

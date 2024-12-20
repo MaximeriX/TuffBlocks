@@ -10,7 +10,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 
-version = '1.0.7-1.19.2'
+version = '1.0.8-1.19.2'
 group = 'net.maximerix.tuffblocks'
 archivesBaseName = 'tuff'
 

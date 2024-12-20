@@ -1,8 +1,7 @@
 {
   "parent": "block/template_wall_side",
   "textures": {
-    "wall": "tuff:blocks/tuff",
-    "particle": "tuff:blocks/tuff"
-  },
-  "render_type": "solid"
+    "wall": "tuff:block/tuff",
+    "particle": "tuff:block/tuff"
+  }
 }
