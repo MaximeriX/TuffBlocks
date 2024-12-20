@@ -3,6 +3,5 @@
   "textures": {
     "all": "tuff:block/polished_tuff",
     "particle": "tuff:block/polished_tuff"
-  },
-  "render_type": "solid"
+  }
 }

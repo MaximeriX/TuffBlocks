@@ -19,15 +19,15 @@ public class ModBlocks {
             new StairsBlock(Blocks.TUFF.getDefaultState(),
                     FabricBlockSettings.copyOf(Blocks.TUFF)
                             .mapColor(MapColor.TERRACOTTA_GRAY)
+                            .sounds(BlockSoundGroup.TUFF)
                             .requiresTool()
-                            .strength(1.5F, 6.0F)
-                            .sounds(ModSounds.TUFF_SOUNDS)));
+                            .strength(1.5F, 6.0F)));
     //
     public static final Block TUFF_SLAB = registerBlock("tuff_slab",
             new SlabBlock(
                     FabricBlockSettings.copyOf(Blocks.TUFF)
                             .mapColor(MapColor.TERRACOTTA_GRAY)
-                            .sounds(ModSounds.TUFF_SOUNDS)
+                            .sounds(BlockSoundGroup.TUFF)
                             .requiresTool()
                             .strength(1.5F, 6.0F)));
     //
@@ -35,7 +35,7 @@ public class ModBlocks {
             new WallBlock(
                     FabricBlockSettings.copyOf(Blocks.TUFF)
                             .mapColor(MapColor.TERRACOTTA_GRAY)
-                            .sounds(ModSounds.TUFF_SOUNDS)
+                            .sounds(BlockSoundGroup.TUFF)
                             .requiresTool()
                             .strength(1.5F, 6.0F)));
     //
@@ -43,7 +43,7 @@ public class ModBlocks {
             new Block(
                     FabricBlockSettings.copyOf(Blocks.TUFF)
                             .mapColor(MapColor.TERRACOTTA_GRAY)
-                            .sounds(ModSounds.TUFF_SOUNDS)
+                            .sounds(BlockSoundGroup.TUFF)
                             .requiresTool()
                             .strength(1.5F, 6.0F)));
     //
