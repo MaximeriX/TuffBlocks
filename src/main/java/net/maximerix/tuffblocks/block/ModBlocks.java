@@ -17,28 +17,28 @@ public class ModBlocks {
     public static final Block TUFF_STAIRS = registerBlock("tuff_stairs",
             new StairsBlock(Blocks.TUFF.getDefaultState(), AbstractBlock.Settings.copy(Blocks.TUFF)
                     .strength(1.5f, 6f)
-                    .sounds(ModSounds.TUFF_SOUNDS)
+                    .sounds(BlockSoundGroup.TUFF)
                     .requiresTool()),
             ItemGroup.BUILDING_BLOCKS);
     //
     public static final Block TUFF_SLAB = registerBlock("tuff_slab",
             new SlabBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_GRAY)
                     .strength(1.5f,6f )
-                    .sounds(ModSounds.TUFF_SOUNDS)
+                    .sounds(BlockSoundGroup.TUFF)
                     .requiresTool()),
             ItemGroup.BUILDING_BLOCKS);
     //
     public static final Block TUFF_WALL = registerBlock("tuff_wall",
             new WallBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_GRAY)
                     .strength(1.5f,6f )
-                    .sounds(ModSounds.TUFF_SOUNDS)
+                    .sounds(BlockSoundGroup.TUFF)
                     .requiresTool()),
             ItemGroup.BUILDING_BLOCKS);
     //
     public static final Block CHISELED_TUFF = registerBlock("chiseled_tuff",
             new Block(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_GRAY)
                     .strength(1.5f,6f )
-                    .sounds(ModSounds.TUFF_SOUNDS)
+                    .sounds(BlockSoundGroup.TUFF)
                     .requiresTool()),
             ItemGroup.BUILDING_BLOCKS);
     //
