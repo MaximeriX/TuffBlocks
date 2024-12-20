@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "tuff:blocks/tuff",
-    "particle": "tuff:blocks/tuff"
+    "all": "tuff:block/tuff",
+    "particle": "tuff:block/tuff"
   }
 }

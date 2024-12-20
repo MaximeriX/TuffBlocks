@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="tuff"
-version="1.0.7-1.14.4"
+version="1.0.8-1.14.4"
 displayName="TuffBlocks"
 updateJSONURL="https://pastebin.com/raw/xh0jwySd"
 displayURL="https://curseforge.com/minecraft/mc-mods/tuffblocks"
