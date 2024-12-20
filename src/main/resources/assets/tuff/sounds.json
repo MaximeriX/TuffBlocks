@@ -1,156 +1,26 @@
 {
-  "block.tuff.break": {
-    "category": "block",
-    "subtitle": "subtitles.block.generic.break",
-    "sounds": [
-      {
-        "name": "tuff:tuff_break1",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_break2",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_break3",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_break4",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_break5",
-        "stream": false
-      }
-    ]
-  },
-  "block.tuff.place": {
-    "category": "block",
-    "subtitle": "subtitles.block.generic.place",
-    "sounds": [
-      {
-        "name": "tuff:tuff_break1",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_break2",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_break3",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_break4",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_break5",
-        "stream": false
-      }
-    ]
-  },
-  "block.tuff.hit": {
-    "category": "block",
-    "subtitle": "subtitles.block.generic.hit",
-    "sounds": [
-      {
-        "name": "tuff:tuff_step1",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_step2",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_step3",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_step4",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_step5",
-        "stream": false
-      }
-    ]
-  },
-  "block.tuff.fall": {
-    "category": "block",
-    "subtitle": "subtitles.block.generic.fall",
-    "sounds": [
-      {
-        "name": "tuff:tuff_step1",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_step2",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_step3",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_step4",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_step5",
-        "stream": false
-      }
-    ]
-  },
-  "block.tuff.step": {
-    "category": "block",
-    "subtitle": "subtitles.block.generic.footsteps",
-    "sounds": [
-      {
-        "name": "tuff:tuff_step1",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_step2",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_step3",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_step4",
-        "stream": false
-      },
-      {
-        "name": "tuff:tuff_step5",
-        "stream": false
-      }
-    ]
-  },
   "block.polished_tuff.break": {
     "category": "block",
     "subtitle": "subtitles.block.generic.break",
     "sounds": [
       {
-        "name": "tuff:tuff_break1",
+        "name": "tuff:polished_tuff_break1",
         "stream": false
       },
       {
-        "name": "tuff:tuff_break2",
+        "name": "tuff:polished_tuff_break2",
         "stream": false
       },
       {
-        "name": "tuff:tuff_break3",
+        "name": "tuff:polished_tuff_break3",
         "stream": false
       },
       {
-        "name": "tuff:tuff_break4",
+        "name": "tuff:polished_tuff_break4",
         "stream": false
       },
       {
-        "name": "tuff:tuff_break5",
+        "name": "tuff:polished_tuff_break5",
         "stream": false
       }
     ]
@@ -160,23 +30,23 @@
     "subtitle": "subtitles.block.generic.place",
     "sounds": [
       {
-        "name": "tuff:tuff_break1",
+        "name": "tuff:polished_tuff_break1",
         "stream": false
       },
       {
-        "name": "tuff:tuff_break2",
+        "name": "tuff:polished_tuff_break2",
         "stream": false
       },
       {
-        "name": "tuff:tuff_break3",
+        "name": "tuff:polished_tuff_break3",
         "stream": false
       },
       {
-        "name": "tuff:tuff_break4",
+        "name": "tuff:polished_tuff_break4",
         "stream": false
       },
       {
-        "name": "tuff:tuff_break5",
+        "name": "tuff:polished_tuff_break5",
         "stream": false
       }
     ]
@@ -186,23 +56,23 @@
     "subtitle": "subtitles.block.generic.hit",
     "sounds": [
       {
-        "name": "tuff:tuff_step1",
+        "name": "tuff:polished_tuff_step1",
         "stream": false
       },
       {
-        "name": "tuff:tuff_step2",
+        "name": "tuff:polished_tuff_step2",
         "stream": false
       },
       {
-        "name": "tuff:tuff_step3",
+        "name": "tuff:polished_tuff_step3",
         "stream": false
       },
       {
-        "name": "tuff:tuff_step4",
+        "name": "tuff:polished_tuff_step4",
         "stream": false
       },
       {
-        "name": "tuff:tuff_step5",
+        "name": "tuff:polished_tuff_step5",
         "stream": false
       }
     ]
@@ -212,23 +82,23 @@
     "subtitle": "subtitles.block.generic.fall",
     "sounds": [
       {
-        "name": "tuff:tuff_step1",
+        "name": "tuff:polished_tuff_step1",
         "stream": false
       },
       {
-        "name": "tuff:tuff_step2",
+        "name": "tuff:polished_tuff_step2",
         "stream": false
       },
       {
-        "name": "tuff:tuff_step3",
+        "name": "tuff:polished_tuff_step3",
         "stream": false
       },
       {
-        "name": "tuff:tuff_step4",
+        "name": "tuff:polished_tuff_step4",
         "stream": false
       },
       {
-        "name": "tuff:tuff_step5",
+        "name": "tuff:polished_tuff_step5",
         "stream": false
       }
     ]
@@ -238,23 +108,23 @@
     "subtitle": "subtitles.block.generic.footsteps",
     "sounds": [
       {
-        "name": "tuff:tuff_step1",
+        "name": "tuff:polished_tuff_step1",
         "stream": false
       },
       {
-        "name": "tuff:tuff_step2",
+        "name": "tuff:polished_tuff_step2",
         "stream": false
       },
       {
-        "name": "tuff:tuff_step3",
+        "name": "tuff:polished_tuff_step3",
         "stream": false
       },
       {
-        "name": "tuff:tuff_step4",
+        "name": "tuff:polished_tuff_step4",
         "stream": false
       },
       {
-        "name": "tuff:tuff_step5",
+        "name": "tuff:polished_tuff_step5",
         "stream": false
       }
     ]
