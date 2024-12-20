@@ -1,9 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "tuff:block/tuff",
-    "top": "tuff:block/tuff",
-    "side": "tuff:block/tuff"
-  },
-  "render_type": "solid"
-}
