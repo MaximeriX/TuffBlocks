@@ -7,6 +7,20 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModSounds {
+    public static final SoundEvent TUFF_BREAK = registerSoundEvent("block.tuff.break");
+    public static final SoundEvent TUFF_STEP = registerSoundEvent("block.tuff.step");
+    public static final SoundEvent TUFF_PLACE = registerSoundEvent("block.tuff.place");
+    public static final SoundEvent TUFF_HIT = registerSoundEvent("block.tuff.hit");
+    public static final SoundEvent TUFF_FALL = registerSoundEvent("block.tuff.fall");
+
+    public static final BlockSoundGroup TUFF_SOUNDS = new BlockSoundGroup(1f, 1f,
+            ModSounds.
+                    TUFF_BREAK,
+            TUFF_STEP,
+            TUFF_PLACE,
+            TUFF_HIT,
+            TUFF_FALL);
+
     public static final SoundEvent POLISHED_TUFF_BREAK = registerSoundEvent("block.polished_tuff.break");
     public static final SoundEvent POLISHED_TUFF_STEP = registerSoundEvent("block.polished_tuff.step");
     public static final SoundEvent POLISHED_TUFF_PLACE = registerSoundEvent("block.polished_tuff.place");

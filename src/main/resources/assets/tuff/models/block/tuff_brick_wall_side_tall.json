@@ -3,5 +3,6 @@
   "textures": {
     "wall": "tuff:block/tuff_bricks",
     "particle": "tuff:block/tuff_bricks"
-  }
+  },
+  "render_type": "solid"
 }

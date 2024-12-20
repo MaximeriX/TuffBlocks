@@ -8,5 +8,6 @@
     "south": "tuff:block/chiseled_tuff",
     "west": "tuff:block/chiseled_tuff",
     "particle": "tuff:block/chiseled_tuff_top"
-  }
+  },
+  "render_type": "solid"
 }

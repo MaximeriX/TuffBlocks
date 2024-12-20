@@ -49,7 +49,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE)
                     .mapColor(MapColor.TERRACOTTA_GRAY)
                     .strength(1.5f, 6f)
-                    .sounds(ModSounds.POLISHED_TUFF_SOUNDS)
+                    .sounds(BlockSoundGroup.TUFF)
                     .requiresTool()));
     //
     public static final Block POLISHED_TUFF_STAIRS = registerBlock("polished_tuff_stairs",
@@ -57,21 +57,21 @@ public class ModBlocks {
                     FabricBlockSettings.of(Material.STONE)
                             .mapColor(MapColor.TERRACOTTA_GRAY)
                             .strength(1.5f, 6f)
-                            .sounds(ModSounds.POLISHED_TUFF_SOUNDS)
+                            .sounds(BlockSoundGroup.TUFF)
                             .requiresTool()));
     //
     public static final Block POLISHED_TUFF_SLAB = registerBlock("polished_tuff_slab",
             new SlabBlock(FabricBlockSettings.of(Material.STONE)
                     .mapColor(MapColor.TERRACOTTA_GRAY)
                     .strength(1.5f, 6f)
-                    .sounds(ModSounds.POLISHED_TUFF_SOUNDS)
+                    .sounds(BlockSoundGroup.TUFF)
                     .requiresTool()));
     //
     public static final Block POLISHED_TUFF_WALL = registerBlock("polished_tuff_wall",
             new WallBlock(FabricBlockSettings.of(Material.STONE)
                     .mapColor(MapColor.TERRACOTTA_GRAY)
                     .strength(1.5f, 6f)
-                    .sounds(ModSounds.POLISHED_TUFF_SOUNDS)
+                    .sounds(BlockSoundGroup.TUFF)
                     .requiresTool()));
     //
 

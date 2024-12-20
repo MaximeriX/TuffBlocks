@@ -4,5 +4,6 @@
     "bottom": "tuff:block/polished_tuff",
     "top": "tuff:block/polished_tuff",
     "side": "tuff:block/polished_tuff"
-  }
+  },
+  "render_type": "cutout_mipped"
 }
