@@ -81,7 +81,10 @@ public class TuffBlock extends TuffModElements.ModElement {
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.STONE)
+			if (blockAt.getBlock() == Blocks.STONE ||
+					blockAt.getBlock() == Blocks.ANDESITE ||
+					blockAt.getBlock() == Blocks.DIORITE ||
+					blockAt.getBlock() == Blocks.GRANITE)
 				blockCriteria = true;
 			return blockCriteria;
 		}
