@@ -10,6 +10,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
@@ -20,7 +21,7 @@ public class ModBlocks {
                     FabricBlockSettings.copyOf(Blocks.TUFF)
                             .mapColor(MapColor.TERRACOTTA_GRAY)
                             .instrument(Instrument.BASEDRUM)
-                            .sounds(ModSounds.TUFF_SOUNDS)
+                            .sounds(BlockSoundGroup.TUFF)
                             .requiresTool()
                             .strength(1.5F, 6.0F)
                             .solid()));
@@ -30,7 +31,7 @@ public class ModBlocks {
                     FabricBlockSettings.copyOf(Blocks.TUFF)
                             .mapColor(MapColor.TERRACOTTA_GRAY)
                             .instrument(Instrument.BASEDRUM)
-                            .sounds(ModSounds.TUFF_SOUNDS)
+                            .sounds(BlockSoundGroup.TUFF)
                             .requiresTool()
                             .strength(1.5F, 6.0F)
                             .solid()));
@@ -40,7 +41,7 @@ public class ModBlocks {
                     FabricBlockSettings.copyOf(Blocks.TUFF)
                             .mapColor(MapColor.TERRACOTTA_GRAY)
                             .instrument(Instrument.BASEDRUM)
-                            .sounds(ModSounds.TUFF_SOUNDS)
+                            .sounds(BlockSoundGroup.TUFF)
                             .requiresTool()
                             .strength(1.5F, 6.0F)
                             .solid()));
@@ -50,7 +51,7 @@ public class ModBlocks {
                     FabricBlockSettings.copyOf(Blocks.TUFF)
                             .mapColor(MapColor.TERRACOTTA_GRAY)
                             .instrument(Instrument.BASEDRUM)
-                            .sounds(ModSounds.TUFF_SOUNDS)
+                            .sounds(BlockSoundGroup.TUFF)
                             .requiresTool()
                             .strength(1.5F, 6.0F)
                             .solid()));
