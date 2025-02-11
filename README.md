@@ -9,7 +9,7 @@ Mod adds all tuff variants from 1.21
 
 Recipes
 - 
-All recipes can be found on the Minecraft Wiki:  **[Tuff](https://minecraft.wiki/w/Tuff)** | **[Polished Tuff](https://minecraft.wiki/w/Polished_Tuff)** | **[Tuff Bricks](https://minecraft.wiki/w/Tuff_Bricks)**
+All recipes can be found on the Minecraft Wiki:  **[Tuff](https://minecraft.wiki/w/Tuff#Usage)** | **[Polished Tuff](https://minecraft.wiki/w/Polished_Tuff#Usage)** | **[Tuff Bricks](https://minecraft.wiki/w/Tuff_Bricks#Usage)**
 
 [![CurseForge](https://img.shields.io/curseforge/dt/1068864?style=flat-square&logo=curseforge&logoColor=%23f16436&label=CurseForge&labelColor=2e3030&color=%23f16436
 )](https://www.curseforge.com/minecraft/mc-mods/tuffblocks/files/)
