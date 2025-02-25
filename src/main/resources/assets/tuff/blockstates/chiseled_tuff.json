@@ -1,7 +1,7 @@
 {
   "variants": {
-    "": {
-      "model": "tuff:block/chiseled_tuff"
+    "normal": {
+      "model": "tuff:chiseled_tuff"
     }
   }
 }

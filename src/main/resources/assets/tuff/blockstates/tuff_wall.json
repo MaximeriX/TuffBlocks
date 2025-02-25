@@ -5,84 +5,45 @@
         "up": "true"
       },
       "apply": {
-        "model": "tuff:block/tuff_wall_post"
+        "model": "tuff:tuff_wall_post"
       }
     },
     {
       "when": {
-        "north": "low"
+        "north": "true"
       },
       "apply": {
-        "model": "tuff:block/tuff_wall",
+        "model": "tuff:tuff_wall",
         "uvlock": true
       }
     },
     {
       "when": {
-        "east": "low"
+        "south": "true"
       },
       "apply": {
-        "model": "tuff:block/tuff_wall",
-        "y": 90,
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "south": "low"
-      },
-      "apply": {
-        "model": "tuff:block/tuff_wall",
+        "model": "tuff:tuff_wall",
         "y": 180,
         "uvlock": true
       }
     },
     {
       "when": {
-        "west": "low"
+        "west": "true"
       },
       "apply": {
-        "model": "tuff:block/tuff_wall",
+        "model": "tuff:tuff_wall",
         "y": 270,
         "uvlock": true
       }
     },
     {
       "when": {
-        "north": "tall"
+        "east": "true"
       },
       "apply": {
-        "model": "tuff:block/tuff_wall_side_tall",
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "east": "tall"
-      },
-      "apply": {
-        "model": "tuff:block/tuff_wall_side_tall",
+        "model": "tuff:tuff_wall",
         "y": 90,
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "south": "tall"
-      },
-      "apply": {
-        "model": "tuff:block/tuff_wall_side_tall",
-        "y": 180,
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "west": "tall"
-      },
-      "apply": {
-        "model": "tuff:block/tuff_wall_side_tall",
-        "y": 270,
         "uvlock": true
       }
     }

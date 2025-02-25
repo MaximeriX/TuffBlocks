@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 15,
-    "description": "TuffBlocks mod resources"
+    "description": "TuffBlocks mod resources",
+    "pack_format": 3
   }
 }

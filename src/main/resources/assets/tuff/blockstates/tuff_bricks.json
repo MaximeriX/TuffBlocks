@@ -1,7 +1,7 @@
 {
   "variants": {
-    "": {
-      "model": "tuff:block/tuff_bricks"
+    "normal": {
+      "model": "tuff:tuff_bricks"
     }
   }
 }

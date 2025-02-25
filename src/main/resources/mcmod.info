@@ -1,0 +1,24 @@
+[
+  {
+    "modid": "tuff",
+    "name": "TuffBlocks",
+    "description": "Adds tuff blocks from 1.21 to older versions",
+    "version": "1.0.9-1.12.2",
+    "credits": "MaximeriX, Mojang AB",
+    "logoFile": "assets/tuff/textures/tuffblocks-logo.png",
+    "mcversion": [
+      "1.12",
+      "1.12.1",
+      "1.12.2"
+    ],
+    "url": "https://curseforge.com/minecraft/mc-mods/tuffblocks",
+    "updateUrl": "https://raw.githubusercontent.com/MaximeriX/TuffBlocks/refs/heads/1.12.2/Forge/updateJson.json",
+    "authorList": [
+      "MaximeriX"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

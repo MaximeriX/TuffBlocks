@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "tuff:tuff_slab",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "tuff:chiseled_tuff",
+    "data": 0
+  }
+}

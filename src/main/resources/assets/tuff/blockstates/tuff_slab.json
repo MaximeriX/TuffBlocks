@@ -1,13 +1,10 @@
 {
   "variants": {
-    "type=bottom": {
-      "model": "tuff:block/tuff_slab"
+    "half=bottom,variant=default": {
+      "model": "tuff:tuff_slab"
     },
-    "type=top": {
-      "model": "tuff:block/tuff_slab_top"
-    },
-    "type=double": {
-      "model": "tuff:block/tuff_slab_full"
+    "half=top,variant=default": {
+      "model": "tuff:tuff_slab_top"
     }
   }
 }
