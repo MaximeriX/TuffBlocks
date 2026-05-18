@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "tuff",
+	"version": "1.2-1.18.2",
+	"name": "TuffBlocks",
+	"description": "Adds tuff blocks before 1.21 to older versions",
+	"authors": [
+		"MaximeriX"
+	],
+	"contact": {
+		"homepage": "https://maximerix.dev/tuffblocks",
+		"sources": "https://github.com/MaximeriX/TuffBlocks",
+		"issues": "https://github.com/MaximeriX/TuffBlocks/issues"
+	},
+	"license": "MIT",
+	"icon": "logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.maximerix.tuffblocks.TuffBlocks"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.4",
+		"minecraft": ">=1.18 <=1.18.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.curseforge": "https://maximerix.dev/tuffblocks/cf",
+				"modmenu.modrinth": "https://maximerix.dev/tuffblocks/md",
+				"modmenu.discord": "https://maximerix.dev/discord",
+				"modmenu.kofi": "https://maximerix.dev/kofi"
+			},
+			"update_checker": true
+		},
+		"modupdater": {
+			"strategy": "curseforge",
+			"projectID": 1068864
+		}
+	}
+}

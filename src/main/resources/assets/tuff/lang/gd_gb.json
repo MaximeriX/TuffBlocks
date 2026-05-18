@@ -1,0 +1,15 @@
+{
+  "block.tuff.chiseled_tuff": "Tuf gilbichte",
+  "block.tuff.chiseled_tuff_bricks": "Breigichean tuf gilbichte",
+  "block.tuff.polished_tuff": "Tuf lìomhta",
+  "block.tuff.polished_tuff_slab": "Leac tuf lìomhta",
+  "block.tuff.polished_tuff_stairs": "Staidhre tuf lìomhta",
+  "block.tuff.polished_tuff_wall": "Balla tuf lìomhta",
+  "block.tuff.tuff_brick_slab": "Leac bhreigichean tuf",
+  "block.tuff.tuff_brick_stairs": "Staidhre bhreigichean tuf",
+  "block.tuff.tuff_brick_wall": "Simpler version : \"Balla breige tuff\"",
+  "block.tuff.tuff_bricks": "Breigichean tuf",
+  "block.tuff.tuff_slab": "Leac tuf",
+  "block.tuff.tuff_stairs": "Staidhre tuf",
+  "block.tuff.tuff_wall": "Balla tuf"
+}
