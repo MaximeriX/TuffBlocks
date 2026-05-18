@@ -1,0 +1,15 @@
+{
+  "block.tuff.chiseled_tuff": "Gemeißelter Tuffstein",
+  "block.tuff.chiseled_tuff_bricks": "Gemeißelte Tuffsteinziegel",
+  "block.tuff.polished_tuff": "Polierdorr Tuffsteen",
+  "block.tuff.polished_tuff_slab": "Polierte Tuffsteenschdufe",
+  "block.tuff.polished_tuff_stairs": "Polierde Tuffsteendrebbe",
+  "block.tuff.polished_tuff_wall": "Polierde Tuffsteenmauorr",
+  "block.tuff.tuff_brick_slab": "Tuffsteenzieschlschdufe",
+  "block.tuff.tuff_brick_stairs": "Tuffsteenzieschldrebbe",
+  "block.tuff.tuff_brick_wall": "Tuffsteenzieschlmauorr",
+  "block.tuff.tuff_bricks": "Tuffsteenzieschl",
+  "block.tuff.tuff_slab": "Tuffsteenschdufe",
+  "block.tuff.tuff_stairs": "Tuffsteendrebbe",
+  "block.tuff.tuff_wall": "Tuffsteenmauorr"
+}

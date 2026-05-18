@@ -1,0 +1,15 @@
+{
+  "block.tuff.chiseled_tuff": "Isklesan Tuf",
+  "block.tuff.chiseled_tuff_bricks": "Isklesane Tuf Cigle",
+  "block.tuff.polished_tuff": "Polinari Tuf",
+  "block.tuff.polished_tuff_slab": "Polirana Tuf Ploča",
+  "block.tuff.polished_tuff_stairs": "Polirane Tuf Stepenice",
+  "block.tuff.polished_tuff_wall": "Zid od Poliranog Tufa",
+  "block.tuff.tuff_brick_slab": "Ploča od ciglenog tufa",
+  "block.tuff.tuff_brick_stairs": "Stepenice od ciglenog tufa",
+  "block.tuff.tuff_brick_wall": "Zid od ciglenog tufa",
+  "block.tuff.tuff_bricks": "Tuf Cigle",
+  "block.tuff.tuff_slab": "Tuf ploča",
+  "block.tuff.tuff_stairs": "Stepenice od tufa",
+  "block.tuff.tuff_wall": "Zid od tufa"
+}
