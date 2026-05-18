@@ -1,0 +1,15 @@
+{
+  "block.tuff.chiseled_tuff": "Kizita Tufa",
+  "block.tuff.chiseled_tuff_bricks": "Kizitaj Tufaj Brikoj",
+  "block.tuff.polished_tuff": "Polurita Tufa",
+  "block.tuff.polished_tuff_slab": "Polurita Tufa Tego",
+  "block.tuff.polished_tuff_stairs": "Poluritaj Tufaj Ŝtuparoj",
+  "block.tuff.polished_tuff_wall": "Polurita Tufa Muro",
+  "block.tuff.tuff_brick_slab": "Plato el tufa briko",
+  "block.tuff.tuff_brick_stairs": "Sxtupoj el tufa briko",
+  "block.tuff.tuff_brick_wall": "Murŝtona murejo el tufo",
+  "block.tuff.tuff_bricks": "Murŝtonoj el tufo",
+  "block.tuff.tuff_slab": "Tavolo el tufo",
+  "block.tuff.tuff_stairs": "Ŝtuparo el tufo",
+  "block.tuff.tuff_wall": "Tufta murejo"
+}
