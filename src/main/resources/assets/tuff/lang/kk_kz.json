@@ -1,0 +1,15 @@
+{
+  "block.tuff.chiseled_tuff": "Оюлы туф",
+  "block.tuff.chiseled_tuff_bricks": "Оюлы туф кірпіш",
+  "block.tuff.polished_tuff": "Жылтыр туф",
+  "block.tuff.polished_tuff_slab": "Жылтыр туф тақта",
+  "block.tuff.polished_tuff_stairs": "Жылтыр туф тепкішек",
+  "block.tuff.polished_tuff_wall": "Жылтыр туф дуал",
+  "block.tuff.tuff_brick_slab": "Туф кірпіш тақта",
+  "block.tuff.tuff_brick_stairs": "Туф кірпіш тепкішек",
+  "block.tuff.tuff_brick_wall": "Туф кірпіш дуал",
+  "block.tuff.tuff_bricks": "Туф кірпіш",
+  "block.tuff.tuff_slab": "Туф тақта",
+  "block.tuff.tuff_stairs": "Туф тепкішек",
+  "block.tuff.tuff_wall": "Туф дуал"
+}
