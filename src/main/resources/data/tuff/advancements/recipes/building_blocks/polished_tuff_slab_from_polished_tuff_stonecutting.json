@@ -1,0 +1,32 @@
+{
+  "parent": "tuff:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tuff:polished_tuff_slab_from_polished_tuff_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_polished_tuff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tuff:polished_tuff"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tuff:polished_tuff_slab_from_polished_tuff_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_tuff",
+      "has_the_recipe"
+    ]
+  ]
+}

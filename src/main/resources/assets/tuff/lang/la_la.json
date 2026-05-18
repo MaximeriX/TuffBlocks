@@ -1,0 +1,16 @@
+{
+  "block.tuff.chiseled_tuff": "Tophus caelatus",
+  "block.tuff.chiseled_tuff_bricks": "Lateres tophi caelati",
+  "block.tuff.polished_tuff": "Tophus politus",
+  "block.tuff.polished_tuff_slab": "Gradus tophi politi",
+  "block.tuff.polished_tuff_stairs": "Scalae tophi politi",
+  "block.tuff.polished_tuff_wall": "Murus tophi politi",
+  "block.tuff.tuff": "Tophus",
+  "block.tuff.tuff_brick_slab": "Gradus laterum tophi",
+  "block.tuff.tuff_brick_stairs": "Scalae laterum tophi",
+  "block.tuff.tuff_brick_wall": "Murus laterum tophi",
+  "block.tuff.tuff_bricks": "Lateres tophi",
+  "block.tuff.tuff_slab": "Gradus tophi",
+  "block.tuff.tuff_stairs": "Scalae tophi",
+  "block.tuff.tuff_wall": "Murus tophi"
+}
