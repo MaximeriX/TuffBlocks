@@ -1,0 +1,16 @@
+{
+  "block.tuff.chiseled_tuff": "Raižytas tufas",
+  "block.tuff.chiseled_tuff_bricks": "Raižytos tufo plytos",
+  "block.tuff.polished_tuff": "Šlifuotas tufas",
+  "block.tuff.polished_tuff_slab": "Šlifuoto tufo pusblokis",
+  "block.tuff.polished_tuff_stairs": "Šlifuoto tufo laiptai",
+  "block.tuff.polished_tuff_wall": "Šlifuoto tufo siena",
+  "block.tuff.tuff": "Tufas",
+  "block.tuff.tuff_brick_slab": "Tufo plytų pusblokis",
+  "block.tuff.tuff_brick_stairs": "Tufo plytų laiptai",
+  "block.tuff.tuff_brick_wall": "Tufo plytų siena",
+  "block.tuff.tuff_bricks": "Tufo plytos",
+  "block.tuff.tuff_slab": "Tufo pusblokis",
+  "block.tuff.tuff_stairs": "Tufo laiptai",
+  "block.tuff.tuff_wall": "Tufo siena"
+}

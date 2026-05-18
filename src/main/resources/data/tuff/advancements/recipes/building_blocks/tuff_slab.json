@@ -1,0 +1,32 @@
+{
+  "parent": "tuff:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tuff:tuff_slab"
+    ]
+  },
+  "criteria": {
+    "has_tuff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tuff:tuff"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tuff:tuff_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_tuff",
+      "has_the_recipe"
+    ]
+  ]
+}

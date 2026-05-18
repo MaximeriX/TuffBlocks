@@ -1,0 +1,32 @@
+{
+  "parent": "tuff:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tuff:tuff_brick_wall_from_tuff_bricks_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_tuff_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tuff:tuff_bricks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tuff:tuff_brick_wall_from_tuff_bricks_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_tuff_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}
