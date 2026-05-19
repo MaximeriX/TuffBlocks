@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "tuff:blocks/tuff_bricks",
+    "top": "tuff:blocks/tuff_bricks",
+    "side": "tuff:blocks/tuff_bricks",
+    "particle": "tuff:blocks/tuff_bricks"
+  }
+}

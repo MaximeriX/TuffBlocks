@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "tuff:tuff_slab_double"
+    }
+  }
+}

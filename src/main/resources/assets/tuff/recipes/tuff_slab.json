@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "tuff:tuff",
+        "data": 0
+      },
+      {
+        "item": "tuff:tuff",
+        "data": 1
+      },
+      {
+        "item": "tuff:tuff",
+        "data": 2
+      }
+    ]
+  },
+  "result": {
+    "item": "tuff:tuff_slab",
+    "data": 0,
+    "count": 6
+  }
+}

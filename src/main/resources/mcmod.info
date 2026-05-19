@@ -1,0 +1,24 @@
+[
+  {
+    "modid": "tuff",
+    "name": "TuffBlocks",
+    "description": "Adds tuff blocks from 1.21 to older versions",
+    "version": "1.1-1.12.2",
+    "credits": "MaximeriX",
+    "logoFile": "assets/tuff/textures/logo.png",
+    "mcversion": [
+      "1.12",
+      "1.12.1",
+      "1.12.2"
+    ],
+    "url": "https://maximerix.dev/tuffblocks",
+    "updateUrl": "https://raw.githubusercontent.com/MaximeriX/TuffBlocks/refs/heads/main/update.json",
+    "authorList": [
+      "MaximeriX"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]
