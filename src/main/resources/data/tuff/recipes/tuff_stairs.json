@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tuff:tuff"
+    },
+    "3": {
+      "item": "tuff:tuff"
+    },
+    "4": {
+      "item": "tuff:tuff"
+    },
+    "6": {
+      "item": "tuff:tuff"
+    },
+    "7": {
+      "item": "tuff:tuff"
+    },
+    "8": {
+      "item": "tuff:tuff"
+    }
+  },
+  "result": {
+    "item": "tuff:tuff_stairs",
+    "count": 4
+  }
+}

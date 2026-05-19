@@ -1,0 +1,176 @@
+{
+  "block.tuff.break": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.break",
+    "sounds": [
+      { "name": "tuff:block/tuff/break1", "stream": false },
+      { "name": "tuff:block/tuff/break2", "stream": false },
+      { "name": "tuff:block/tuff/break3", "stream": false },
+      { "name": "tuff:block/tuff/break4", "stream": false },
+      { "name": "tuff:block/tuff/break5", "stream": false }
+    ]
+  },
+  "block.tuff.place": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.place",
+    "sounds": [
+      { "name": "tuff:block/tuff/break1", "stream": false },
+      { "name": "tuff:block/tuff/break2", "stream": false },
+      { "name": "tuff:block/tuff/break3", "stream": false },
+      { "name": "tuff:block/tuff/break4", "stream": false },
+      { "name": "tuff:block/tuff/break5", "stream": false }
+    ]
+  },
+  "block.tuff.hit": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.hit",
+    "sounds": [
+      { "name": "tuff:block/tuff/step1", "stream": false },
+      { "name": "tuff:block/tuff/step2", "stream": false },
+      { "name": "tuff:block/tuff/step3", "stream": false },
+      { "name": "tuff:block/tuff/step4", "stream": false },
+      { "name": "tuff:block/tuff/step5", "stream": false },
+      { "name": "tuff:block/tuff/step6", "stream": false }
+    ]
+  },
+  "block.tuff.fall": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.fall",
+    "sounds": [
+      { "name": "tuff:block/tuff/step1", "stream": false },
+      { "name": "tuff:block/tuff/step2", "stream": false },
+      { "name": "tuff:block/tuff/step3", "stream": false },
+      { "name": "tuff:block/tuff/step4", "stream": false },
+      { "name": "tuff:block/tuff/step5", "stream": false },
+      { "name": "tuff:block/tuff/step6", "stream": false }
+    ]
+  },
+  "block.tuff.step": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      { "name": "tuff:block/tuff/step1", "stream": false },
+      { "name": "tuff:block/tuff/step2", "stream": false },
+      { "name": "tuff:block/tuff/step3", "stream": false },
+      { "name": "tuff:block/tuff/step4", "stream": false },
+      { "name": "tuff:block/tuff/step5", "stream": false },
+      { "name": "tuff:block/tuff/step6", "stream": false }
+    ]
+  },
+  "block.polished_tuff.break": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.break",
+    "sounds": [
+      { "name": "tuff:block/tuff/break1", "stream": false },
+      { "name": "tuff:block/tuff/break2", "stream": false },
+      { "name": "tuff:block/tuff/break3", "stream": false },
+      { "name": "tuff:block/tuff/break4", "stream": false },
+      { "name": "tuff:block/tuff/break5", "stream": false }
+    ]
+  },
+  "block.polished_tuff.place": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.place",
+    "sounds": [
+      { "name": "tuff:block/tuff/break1", "stream": false },
+      { "name": "tuff:block/tuff/break2", "stream": false },
+      { "name": "tuff:block/tuff/break3", "stream": false },
+      { "name": "tuff:block/tuff/break4", "stream": false },
+      { "name": "tuff:block/tuff/break5", "stream": false }
+    ]
+  },
+  "block.polished_tuff.hit": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.hit",
+    "sounds": [
+      { "name": "tuff:block/tuff/step1", "stream": false },
+      { "name": "tuff:block/tuff/step2", "stream": false },
+      { "name": "tuff:block/tuff/step3", "stream": false },
+      { "name": "tuff:block/tuff/step4", "stream": false },
+      { "name": "tuff:block/tuff/step5", "stream": false },
+      { "name": "tuff:block/tuff/step6", "stream": false }
+    ]
+  },
+  "block.polished_tuff.fall": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.fall",
+    "sounds": [
+      { "name": "tuff:block/tuff/step1", "stream": false },
+      { "name": "tuff:block/tuff/step2", "stream": false },
+      { "name": "tuff:block/tuff/step3", "stream": false },
+      { "name": "tuff:block/tuff/step4", "stream": false },
+      { "name": "tuff:block/tuff/step5", "stream": false },
+      { "name": "tuff:block/tuff/step6", "stream": false }
+    ]
+  },
+  "block.polished_tuff.step": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      { "name": "tuff:block/tuff/step1", "stream": false },
+      { "name": "tuff:block/tuff/step2", "stream": false },
+      { "name": "tuff:block/tuff/step3", "stream": false },
+      { "name": "tuff:block/tuff/step4", "stream": false },
+      { "name": "tuff:block/tuff/step5", "stream": false },
+      { "name": "tuff:block/tuff/step6", "stream": false }
+    ]
+  },
+  "block.tuff_bricks.break": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.break",
+    "sounds": [
+      { "name": "tuff:block/tuff_bricks/place1", "stream": false },
+      { "name": "tuff:block/tuff_bricks/place2", "stream": false },
+      { "name": "tuff:block/tuff_bricks/place3", "stream": false },
+      { "name": "tuff:block/tuff_bricks/place4", "stream": false },
+      { "name": "tuff:block/tuff_bricks/place5", "stream": false }
+    ]
+  },
+  "block.tuff_bricks.place": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.place",
+    "sounds": [
+      { "name": "tuff:block/tuff_bricks/place1", "stream": false },
+      { "name": "tuff:block/tuff_bricks/place2", "stream": false },
+      { "name": "tuff:block/tuff_bricks/place3", "stream": false },
+      { "name": "tuff:block/tuff_bricks/place4", "stream": false },
+      { "name": "tuff:block/tuff_bricks/place5", "stream": false }
+    ]
+  },
+  "block.tuff_bricks.hit": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.hit",
+    "sounds": [
+      { "name": "tuff:block/tuff_bricks/step1", "stream": false },
+      { "name": "tuff:block/tuff_bricks/step2", "stream": false },
+      { "name": "tuff:block/tuff_bricks/step3", "stream": false },
+      { "name": "tuff:block/tuff_bricks/step4", "stream": false },
+      { "name": "tuff:block/tuff_bricks/step5", "stream": false },
+      { "name": "tuff:block/tuff_bricks/step6", "stream": false }
+    ]
+  },
+  "block.tuff_bricks.fall": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.fall",
+    "sounds": [
+      { "name": "tuff:block/tuff_bricks/step1", "stream": false },
+      { "name": "tuff:block/tuff_bricks/step2", "stream": false },
+      { "name": "tuff:block/tuff_bricks/step3", "stream": false },
+      { "name": "tuff:block/tuff_bricks/step4", "stream": false },
+      { "name": "tuff:block/tuff_bricks/step5", "stream": false },
+      { "name": "tuff:block/tuff_bricks/step6", "stream": false }
+    ]
+  },
+  "block.tuff_bricks.step": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      { "name": "tuff:block/tuff_bricks/step1", "stream": false },
+      { "name": "tuff:block/tuff_bricks/step2", "stream": false },
+      { "name": "tuff:block/tuff_bricks/step3", "stream": false },
+      { "name": "tuff:block/tuff_bricks/step4", "stream": false },
+      { "name": "tuff:block/tuff_bricks/step5", "stream": false },
+      { "name": "tuff:block/tuff_bricks/step6", "stream": false }
+    ]
+  }
+}

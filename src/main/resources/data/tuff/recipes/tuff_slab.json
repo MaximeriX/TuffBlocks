@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "tuff:tuff"
+    },
+    "1": {
+      "item": "tuff:tuff"
+    },
+    "2": {
+      "item": "tuff:tuff"
+    }
+  },
+  "result": {
+    "item": "tuff:tuff_slab",
+    "count": 6
+  }
+}
